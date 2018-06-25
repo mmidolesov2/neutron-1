@@ -18,6 +18,6 @@ dumb-init
 -e git+https://github.com/sapcc/networking-dvs.git@stable/mitaka-m3#egg=networking_dvs
 -e git+https://github.com/sapcc/networking-f5-ml2.git@stable/mitaka-m3#egg=networking_f5_ml2
 -e git+https://github.com/sapcc/neutron-lbaas@stable/mitaka-m3#egg=neutron-lbaas
--e git+https://github.com/sapcc/f5-openstack-lbaasv2-driver@mitaka-m3#egg=f5-openstack-lbaasv2-driver
--e git+https://github.com/sapcc/f5-openstack-agent@mitaka-m3#egg=f5-openstack-agent
+-e git+https://github.com/sapcc/f5-openstack-lbaasv2-driver@dev/mitaka-m3#egg=f5-openstack-lbaasv2-driver
+-e git+https://github.com/sapcc/f5-openstack-agent@dev/mitaka-m3#egg=f5-openstack-agent
 -e git+https://github.com/sapcc/asr1k-neutron-l3#egg=asr1k-neutron-l3
