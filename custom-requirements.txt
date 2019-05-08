@@ -1,0 +1,37 @@
+#TODO: blindly copied from queens for a quick test. needs to be adapted for rocky
+dumb-init
+UcsSdk
+oslo.vmware
+python-memcached
+pymemcache
+redis
+raven
+
+# these are now here: https://objectstore-3.eu-de-1.cloud.sap/v1/AUTH_caa6209d2c38450f8266311fd0f05446/sapcc-pypi/aci-python-bindings/
+aci-python-bindings#egg=acicobra
+aci-python-bindings#egg=acimodel
+
+# for NSX-T
+vapi_common
+vapi_runtime
+vapi_common_client
+nsx_python_sdk
+
+git+https://github.com/sapcc/openstack-watcher-middleware.git#egg=watcher-middleware
+git+https://github.com/sapcc/openstack-audit-middleware.git@support_json_rfc7159_null_doc#egg=audit-middleware
+git+https://github.com/sapcc/ncclient.git@v0.5.3#egg=ncclient
+#-e git+https://github.com/sapcc/ncclient.git@sapcc#egg=ncclient
+-e git+https://github.com/sapcc/neutron-lbaas@stable/queens-m3#egg=neutron-lbaas
+-e git+https://github.com/sapcc/f5-openstack-lbaasv2-driver@queens-m3#egg=f5-openstack-lbaasv2-driver
+-e git+https://github.com/sapcc/networking-manila.git@stable/queens-m3#egg=networking_manila
+-e git+https://github.com/sapcc/networking-f5-ml2.git@stable/queens-m3#egg=networking_f5_ml2
+-e git+https://github.com/sapcc/networking-aci.git@stable/queens-m3#egg=networking_aci
+-e git+https://github.com/sapcc/networking-arista.git@stable/queens-m3#egg=networking_arista
+-e git+https://github.com/sapcc/networking-dvs.git@stable/queens-m3#egg=networking_dvs
+# -e git+https://github.com/sapcc/osprofiler.git@stable/queens-m3#egg=osprofiler
+-e git+https://github.com/sapcc/asr1k-neutron-l3@dev/queens-m3#egg=asr1k-neutron-l3
+-e git+https://github.com/sapcc/networking-nsx-t.git@development/queens#egg=networking_nsxv3
+-e git+https://github.com/sapcc/python-agentliveness.git#egg=agentliveness
+-e git+https://github.com/sapcc/networking-ucsm-bm.git@stable/queens-m3#egg=networking-ucsm-bm
+# -e git+https://github.com/sapcc/f5-openstack-agent@mitaka-m3#egg=f5-openstack-agent
+-e git+https://github.com/openstack/networking-bgpvpn@stable/queens#egg=networking-bgpvpn
