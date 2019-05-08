@@ -7,15 +7,16 @@ pymemcache
 redis
 raven
 
-# these are now here: https://objectstore-3.eu-de-1.cloud.sap/v1/AUTH_caa6209d2c38450f8266311fd0f05446/sapcc-pypi/aci-python-bindings/
-aci-python-bindings#egg=acicobra
-aci-python-bindings#egg=acimodel
-
 # for NSX-T
 vapi_common
 vapi_runtime
 vapi_common_client
 nsx_python_sdk
+
+# these are now here: https://objectstore-3.eu-de-1.cloud.sap/v1/AUTH_caa6209d2c38450f8266311fd0f05446/sapcc-pypi/aci-python-bindings/
+acicobra
+acimodel
+aci-python-bindings
 
 git+https://github.com/sapcc/openstack-watcher-middleware.git#egg=watcher-middleware
 git+https://github.com/sapcc/openstack-audit-middleware.git@support_json_rfc7159_null_doc#egg=audit-middleware
